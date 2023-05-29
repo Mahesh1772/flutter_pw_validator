@@ -180,7 +180,7 @@ class FlutterPwValidatorState extends State<FlutterPwValidator> {
           new Flexible(
             flex: 7,
             child: new Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.start,
 
                 //Iterate through the condition map entries and generate new ValidationTextWidget for each item in Green or Red Color
                 children: _conditionsHelper.getter()!.entries.map((entry) {
